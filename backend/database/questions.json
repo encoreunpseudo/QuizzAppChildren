@@ -1,0 +1,114 @@
+[
+    {
+      "id": 1,
+      "theme": "Histoire",
+      "question": "Quel événement marque le début de la Révolution française ?",
+      "answers": {
+        "A": "La prise de la Bastille",
+        "B": "Le couronnement de Napoléon",
+        "C": "La signature du traité de Versailles"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 2,
+      "theme": "Sciences",
+      "question": "Quel est l'élément chimique le plus abondant dans l'univers ?",
+      "answers": {
+        "A": "L'oxygène",
+        "B": "L'hydrogène",
+        "C": "Le carbone"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "theme": "Géographie",
+      "question": "Quel est le plus grand désert du monde ?",
+      "answers": {
+        "A": "Le désert du Sahara",
+        "B": "L'Antarctique",
+        "C": "Le désert de Gobi"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 4,
+      "theme": "Littérature",
+      "question": "Qui a écrit 'Les Misérables' ?",
+      "answers": {
+        "A": "Victor Hugo",
+        "B": "Émile Zola",
+        "C": "Gustave Flaubert"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 5,
+      "theme": "Musique",
+      "question": "Quel compositeur est l’auteur de la 'Symphonie n°9' ?",
+      "answers": {
+        "A": "Mozart",
+        "B": "Beethoven",
+        "C": "Chopin"
+      },
+      "correct_answer": "B"
+    }
+    ,
+    {
+        "id": 6,
+        "theme": "Cinéma",
+        "question": "Quel film a remporté l'Oscar du meilleur film en 1994 ?",
+        "answers": {
+            "A": "Forrest Gump",
+            "B": "Pulp Fiction",
+            "C": "Les Évadés"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 7,
+        "theme": "Sport",
+        "question": "Quel pays a remporté la Coupe du Monde de la FIFA en 2018 ?",
+        "answers": {
+            "A": "Allemagne",
+            "B": "Brésil",
+            "C": "France"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 8,
+        "theme": "Technologie",
+        "question": "Quel est le langage de programmation principalement utilisé pour le développement d'applications Android ?",
+        "answers": {
+            "A": "Java",
+            "B": "Swift",
+            "C": "Python"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "theme": "Art",
+        "question": "Qui a peint la 'Joconde' ?",
+        "answers": {
+            "A": "Vincent van Gogh",
+            "B": "Pablo Picasso",
+            "C": "Leonardo da Vinci"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 10,
+        "theme": "Mathématiques",
+        "question": "Quelle est la valeur de Pi (π) approximée à deux décimales près ?",
+        "answers": {
+            "A": "3.12",
+            "B": "3.14",
+            "C": "3.16"
+        },
+        "correct_answer": "B"
+    }
+  ]
+  

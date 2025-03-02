@@ -1,0 +1,2 @@
+structure de la base de données de Quizz
+Theme, Question, Rep1, Rep2, Rep3, Bonne Rep, Nombre de reponses bonnes, nombre de réponse fausse
