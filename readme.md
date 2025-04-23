@@ -8,13 +8,6 @@
 
 This is a learning project to practice React Native development while exploring some basic concepts in educational apps. It's a work in progress with plenty of room for improvement.
 
-## License
-
-This project is available under the MIT License.
-
----
-
-Made with React Native# QuizzApp for Children
 
 ## Overview
 
