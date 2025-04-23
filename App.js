@@ -12,44 +12,6 @@ import ProfileScreen from './screens/Profile';
 import RevisionScreen from './screens/RevisionScreen';
 import RevisionQuizScreen from './screens/RevisionQuizScreen';
 
-// Écran temporaire pour les notifications
-function NotificationsScreen() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#1927b6' }}>
-      <Text style={{ color: '#ffffff', fontSize: 18, marginBottom: 20 }}>Notifications</Text>
-      <View style={{ 
-        backgroundColor: '#ffffff', 
-        borderRadius: 16, 
-        padding: 15, 
-        width: '90%',
-        marginBottom: 10
-      }}>
-        <Text style={{ fontWeight: 'bold', marginBottom: 5 }}>🎉 Nouveau quiz disponible !</Text>
-        <Text>Quiz spécial sur les planètes - essaie-le maintenant !</Text>
-      </View>
-      <View style={{ 
-        backgroundColor: '#ffffff', 
-        borderRadius: 16, 
-        padding: 15, 
-        width: '90%',
-        marginBottom: 10
-      }}>
-        <Text style={{ fontWeight: 'bold', marginBottom: 5 }}>👏 Félicitations !</Text>
-        <Text>Tu as terminé 5 quiz cette semaine. Continue comme ça !</Text>
-      </View>
-      <View style={{ 
-        backgroundColor: '#ffffff', 
-        borderRadius: 16, 
-        padding: 15, 
-        width: '90%',
-        marginBottom: 10
-      }}>
-        <Text style={{ fontWeight: 'bold', marginBottom: 5 }}>👋 Ton ami Léo vient de rejoindre !</Text>
-        <Text>Invite-le à faire un quiz avec toi !</Text>
-      </View>
-    </View>
-  );
-}
 
 const Tab = createBottomTabNavigator();
 
@@ -85,8 +47,7 @@ const CustomTabBar = ({ state, descriptors, navigation }) => {
             iconName = isFocused ? 'flash' : 'flash-outline';
           } else if (route.name === 'Revision') {
             iconName = isFocused ? 'book' : 'book-outline';
-          } else if (route.name === 'Notifications') {
-            iconName = isFocused ? 'notifications' : 'notifications-outline';
+          
           } else if (route.name === 'Profile') {
             iconName = isFocused ? 'person' : 'person-outline';
           }
@@ -127,7 +88,8 @@ const CustomTabBar = ({ state, descriptors, navigation }) => {
               ]}>
                 {label === 'Feed' ? 'Découvrir' : 
                  label === 'Revision' ? 'Réviser' : 
-                 label === 'Notifications' ? 'Alertes' :
+                 
+
                  label === 'Profile' ? 'Profil' : label}
               </Text>
             </TouchableOpacity>
@@ -163,14 +125,7 @@ export default function App() {
             tabBarLabel: 'Réviser'
           }}
         />
-        <Tab.Screen 
-          name="Notifications" 
-          component={NotificationsScreen}
-          options={{
-            tabBarLabel: 'Alertes',
-            tabBarBadge: 3
-          }}
-        />
+        
         <Tab.Screen 
           name="Profile" 
           component={ProfileScreen}

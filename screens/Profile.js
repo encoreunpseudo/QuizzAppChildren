@@ -214,7 +214,7 @@ const ProfileScreen = () => {
           
           {/* Texte du pourcentage */}
           <SvgText
-            x={size / 2}
+            x={size / 2-7}
             y={size / 2 + 8}
             fontSize="24"
             fontWeight="bold"
@@ -324,7 +324,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#1927b6",
   },
   contentContainer: {
-    paddingBottom: 80, // Espace pour la barre de navigation
+    paddingBottom: 80,
+    // Espace pour la barre de navigation
   },
   header: {
     padding: 20,
